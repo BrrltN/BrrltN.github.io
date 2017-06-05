@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="#{current_page.data.description}">
+
+<title>Association Vénus</title>
+
+<link href="/stylesheets/style.css" rel="stylesheet" />
+<script src="/javascripts/site.js"></script>
+
+<script src="https://use.fontawesome.com/72652b31b3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar" role="navigation">
+    <ul class="navbar__list">
+      <li> <a href="/" class="navbar__link">Présentation</a> </li>
+      <li> <a href="/projets.html" class="navbar__link">Projets</a> </li>
+      <li> <a href="/blog.html" class="navbar__link">Blog</a> </li>
+      <li> <a href="/contact.html" class="navbar__link">Contact</a> </li>
+    </ul>
+</nav>
+
+    <div id="Projet">
+  <div class="images">
+      <div class="fotorama">
+            <img src="/assets/images/Venus1.png" alt="Venus1" />
+            <img src="/assets/images/Venus2.png" alt="Venus2" />
+            <img src="/assets/images/Venus3.png" alt="Venus3" />
+      </div>
+  </div>
+
+  <div class="descriptionprojet">
+    <div class="descriptionprojet__description">
+
+      <h1> Association Vénus </h1>
+      <p> Mai - 2017 </p>
+      <p> Vénus est une association de protection des animaux. Dans le cadre de mon stage à l'agence Webulle, j'ai eu à réaliser un site statique présentant cette association. </p>
+      <p> Grâce aux maquettes préalablement réalisées par les graphistes de l'entreprise, j'ai intégré plusieurs pages du site. Pour cela j'ai utilisé le CMS Wordpress conformément aux attentes de l'entreprise. L'intégration du site étant rendu très simple par l'utilisation de Divi Builder. La principale difficulté de ce projet fut la récupération de données de l'ancien site : Livre d'or et les contacts pour Newsletter. Pour y palier j'ai du rechercher les précédents fichiers et les traiter manuellement. En effet la faible taille des fichiers ne nécessité pas une automatisation du traitment.Enfin j'ai me suis familiariser avec les services de MailChimp pour permettre au client d'utiliser des outils de newsletter plus moderne. </p>
+    </div>
+
+    <div class="descriptionprojet__techprojet">
+      <div class="descriptionprojet__techprojet__techweb">
+          <h2>Mots clés</h2>
+            <p>Wordpress</p>
+            <p> MailChimp</p>
+      </div>
+      <div class="descriptionprojet__techprojet__logiciel">
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+
+  </body>
+</html>

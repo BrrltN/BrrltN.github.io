@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="#{current_page.data.description}">
+
+<title>Nicolas Barrouillet - Contact</title>
+
+<link href="/stylesheets/style.css" rel="stylesheet" />
+<script src="/javascripts/site.js"></script>
+
+<script src="https://use.fontawesome.com/72652b31b3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar" role="navigation">
+    <ul class="navbar__list">
+      <li> <a href="/" class="navbar__link">Présentation</a> </li>
+      <li> <a href="/projets.html" class="navbar__link">Projets</a> </li>
+      <li> <a href="/blog.html" class="navbar__link">Blog</a> </li>
+      <li> <a href="/contact.html" class="navbar__link">Contact</a> </li>
+    </ul>
+</nav>
+
+    <div id="Contact">
+  <div class="informations">
+
+    <div class="informations__side">
+      <h2>ContactGame</h2>
+      <p>Vous comprendrez assez facilement que je suis rétissant à délivrer des informations personnelles sur internet.</p>
+      <p>Pour résourdre ce problème, j'ai laissé dans le code de cette page des indices vous permettant de retrouver mes coordonnées</p>
+      <div class="informations__side__info">
+        <p>011000100110000101110011011001010011011000110100</p> <!-- key-->
+        <div class="informations__side__info__trait"></div>
+        <p>YmFycm91aWxsZXQubmljb2xhc0BnbWFpbC5jb20=</p> <!-- mail-->
+        <div class="informations__side__info__trait"></div>
+        <p>MDY1ODkyNDQ0OA==</p> <!-- telephone-->
+      </div>
+      <div class="bouton">
+        <button id="bouton" type="button" name="button">Indice</button>
+      </div>
+
+        <!--
+          <div class="informations__side__info">
+            <i class= 'fa fa-database' aria-hidden="true"></i>
+            <p>Nicolas Barrouillet</p>
+          </div>
+          <div class="informations__side__info">
+            <i class= 'fa fa-database' aria-hidden="true"></i>
+            <p>06 58 92 44 48</p>
+          </div>
+          <div class="informations__side__info">
+            <i class= 'fa fa-database' aria-hidden="true"></i>
+            <p>barrouillet.nicolas@gmail.com</p>
+          </div>
+          <div class="informations__side__info">
+            <i class= 'fa fa-database' aria-hidden="true"></i>
+            <p>Bordeaux, Gironde (33)</p>
+          </div>
+      -->
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  $("button").click(function(){
+    $("#bouton").fadeOut(1000);
+    $(".bouton").html('<p>barrouillet.nicolas@gmail.com</p>');
+  });
+});
+
+</script>
+
+    
+
+  </body>
+</html>
