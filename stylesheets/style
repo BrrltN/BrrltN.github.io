@@ -378,7 +378,7 @@ body {
     border: none;
     width: 50%; }
   .informations .bouton p {
-    color: #352c58;
+    color: #fff;
     margin-top: 30px;
     font-size: 30px; }
 
