@@ -45,7 +45,7 @@ p {
   flex-flow: row wrap;
   justify-content: flex-end;
   background-color: #352c58;
-  height: 100px; }
+  height: 90px; }
   .navbar__list {
     display: flex;
     flex-direction: row;
@@ -61,11 +61,11 @@ p {
     .navbar__link:hover {
       color: #939ef1; }
 
-/*
-// Breackpoint : Passer en menu mobile
-@media all and (max-width: 620px) {
-}
-*/
+@media (max-width: 900px) {
+  .navbar {
+    justify-content: center; }
+    .navbar__list {
+      padding-right: 0px; } }
 .bouton > a > button {
   display: flex;
   flex-direction: column;
@@ -147,10 +147,6 @@ body {
         color: #352c58;
         font-size: 40px; }
 
-/* //////////////   Global ////////////////////*/
-/*Faire version mobile*/
-/*@media all and (max-width: 620px) {
-}*/
 #Projets {
   display: flex;
   flex-direction: row;
