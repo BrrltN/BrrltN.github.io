@@ -98,8 +98,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 70%;
-    height: 100%;
-    background-color: #939ef1; }
+    height: 100%; }
     .part__gauche__bloc {
       display: flex;
       flex-direction: column;
@@ -113,7 +112,7 @@ body {
         color: #352c58;
         font-size: 17px; }
         .part__gauche__bloc__texte p strong {
-          color: #fff; }
+          color: #939ef1; }
   .part__droite {
     display: flex;
     flex-direction: column;
@@ -144,7 +143,7 @@ body {
         flex-direction: column;
         align-items: center;
         padding-bottom: 20px;
-        color: #352c58;
+        color: #939ef1;
         font-size: 40px; }
 
 #Projets {
