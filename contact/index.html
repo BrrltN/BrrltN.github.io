@@ -30,8 +30,8 @@
 </nav>
 
     <div id="Contact">
-  <div class="informations">
-    <div class="informations__side">
+  <div class="informations" >
+    <div class="informations__side" id="zoulette">
       <h2>ContactGame</h2>
       <p>Vous comprendrez assez facilement que je suis rétissant à délivrer des informations personnelles sur internet.</p>
       <p>Pour résourdre ce problème, j'ai laissé dans le code de cette page des indices vous permettant de retrouver mes coordonnées</p>
@@ -44,14 +44,12 @@
       </div>
     </div>
   </div>
+  <div class="bouton">
+    <a>
+      <button id="bouton" type="button" name="button">Indice</button>
+    </a>
+  </div>
 </div>
-<div class="bouton">
-  <a>
-    <button id="bouton" type="button" name="button">Indice</button>
-  </a>
-</div>
-
-
 <script type="text/javascript">
 $(document).ready(function () {
   $("button").click(function(){
@@ -61,7 +59,23 @@ $(document).ready(function () {
 });
 </script>
 
-    
+<script type="text/javascript">
+$(document).ready(function () {
+  var width = window.screen.width;
+  var height = window.screen.height;
+  var text = document.getElementById('zoulette');
+  var btn = document.getElementById('bouton');
+  console.log("width = " + width);
+  console.log("height = " + height);
+  console.log(text);
+  console.log(btn);
+  if (width < 600) {
+    text.style.display = 'none';
+    btn.style.display = 'none';
+  }
+});
+</script>
 
+    
   </body>
 </html>
