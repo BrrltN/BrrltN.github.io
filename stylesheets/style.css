@@ -216,7 +216,10 @@ body {
   .part__droite {
     width: 80%; }
   .part__gauche {
-    width: 80%; } }
+    width: 80%; }
+
+  .part__droite__bloc > i {
+    padding-right: 40px; } }
 @media (max-width: 460px) {
   .part__droite__bloc > i {
     display: none; } }
@@ -488,6 +491,15 @@ body {
   margin-top: 25%;
   font-size: 30px; }
 
+@media (max-width: 620px) {
+  .informations__side__info {
+    font-size: 3vw; }
+
+  .informations__side h2 {
+    font-size: 14vw; }
+
+  .bouton p {
+    font-size: 6vw; } }
 #Search {
   display: -ms-flexbox;
   display: flex;
